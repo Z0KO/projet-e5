@@ -1,0 +1,142 @@
+#apropos-de-nous {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.mini_title {
+    margin-top: 25px;
+    font-size: 16px;
+    color: #27ae60;
+    text-transform: capitalize;
+}
+.title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #273e60;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.apropos .left {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    
+}
+.apropos .left img {
+    width: 90%;
+
+}
+
+.apropos .right {
+    width: 60%;
+    margin-top: -300px;
+    margin-left: 80vh;
+    margin-bottom: 50vh;
+}
+.apropos .right h3 {
+    font-size: 35px;
+    color: #273e60;
+    margin: 10px 0;
+}
+.apropos .right p {
+    font-size: 14px;
+    color: #995;
+}
+.apropos .right button {
+    margin: 20px 0;
+    padding: 5px 60px;
+    background-color: #27ae60;
+    border: 0;
+}
+.apropos .right button a {
+    color: #fff;
+    text-decoration: 0;
+    font-weight: 200;
+}
+/* commentaire*/
+.commentaire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    height: 95vh;
+    flex-direction: column;
+    padding: 0 10%;
+}
+.comments {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.comments .comment div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.comments .comment div img {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #27ae60;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.comments .comment {
+    width: 31%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 23px;
+}
+.comments .comment div h4 {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #273e60;
+}
+.comments .comment p {
+    font-size: 12px;
+    color: #999;
+}
+
+.petit_titre {
+    margin-left: 640px;
+    font-size: 16px;
+    color: #27ae60;
+    text-transform: capitalize;
+}
+#message form {
+    display: flex;
+    margin-left: 500px;
+    background-color: rgba(0,0,0,0.05);
+    padding: 25px;
+    border-radius: 6px;
+    flex-direction: column;
+    width: 350px;
+}
+#message form label {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+#message form input {
+    margin-bottom: 8px;
+    padding: 5px;
+    border: 1px solid;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+#message form input:focus {
+    outline: 2px solid #27ae60;
+}
+#message form input[type="submit"] {
+    margin-top: 10px;
+    color: #fff;
+    background-color: #27ae60;
+    border: 1px solid #27ae60;
+    transition: 0.5s;
+}
+.right {
+    margin-left: 600px;
+}
