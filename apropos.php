@@ -83,7 +83,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                         <img src="../images/img5.png">
                         <h4>Arnaud</h4>
                     </div>
-                    <p>Bel établissement où l’on se sent tout de suite bien. Le staff est aux petits soins, en plus d’être extrêmement réactif. Le Strng Chicken était délicieux. A essayer pour un bon repas bien sympathique</p>
+                    <p>Bel établissement où l’on se sent tout de suite bien. Le staff est aux petits soins, en plus d’être extrêmement réactif. Le Strong Chicken était délicieux. A essayer pour un bon repas bien sympathique</p>
                 </div>
 
                 <div class="comment">
@@ -117,7 +117,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <label> Email</label>
         <input type="email" id="email" name="email" placeholder="Saisir votre email" required>
         <label> Message</label>
-        <input type="textarea" id="message" name="message" placeholder="Saisir votre message" required>
+        <input type="text" id="texte_message" name="texte_message" placeholder="Saisir votre message" required>
         <input type="submit" value="Envoyer">
     </form>
              
@@ -156,7 +156,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                 </div>
                 <hr>      
             </div>   
-            <p class="footer_text">Réalisé par <span>WeLoveChicken &nbsp;<a href="https://www.youtube.com/watch?v=0vNs_HfkkKA" target="_blank">\O/</a>&nbsp;</span> | Tous les droits sont réservés.</p>  
+            <p class="footer_text">Réalisé par <span>WeLoveChicken</span> | Tous les droits sont réservés.</p>  
         </footer>
 
         <script>

@@ -42,8 +42,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <input type="text" id="prenom" name="prenom" placeholder="Saisir votre prénom" required>
         <label> Votre email</label>
         <input type="email" id="email" name="email" placeholder="Saisir votre email" required>
+        <label> Votre téléphone</label>
+        <input type="number" id="telephone" name="telephone" placeholder="Saisir votre téléphone" required>
         <label> Date de réservation</label>
-        <input type="date" id="date_reservation" name="date_reservation" required>
+        <input type="date" id="date_reserv" name="date_reserv" required>
         <label> Heure de réservation</label>
         <input type="time" id="heure_reservation" name="heure_reservation" required>
         <input type="submit" value="Valider la réservation">
@@ -96,7 +98,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                 </div>
                 <hr>      
             </div>   
-            <p class="footer_text">Réalisé par <span>WeLoveChicken &nbsp;<a href="https://www.youtube.com/watch?v=0vNs_HfkkKA" target="_blank">\O/</a>&nbsp;</span> | Tous les droits sont réservés.</p>     
+            <p class="footer_text">Réalisé par <span>WeLoveChicken</span> | Tous les droits sont réservés.</p>     
         </footer>
 
         <script>

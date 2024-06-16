@@ -40,13 +40,27 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
             <div class="description-plat">
                 <br><br>
                 <h3>
-                    Découvrez notre délicieux plat de spaghetti, préparé avec des ingrédients frais et de qualité. 
+                    Découvrez notre délicieux plat de poulet, avec deux acompagnements préparé avec amour de qualité supérieur. 
                     Ce plat est parfait pour un dîner en famille ou entre amis.
                 </h3>
                 <br><br>
                 <h3>
-                    <strong>Ingrédients:</strong> Spaghetti, tomates, ail, basilic, huile d'olive, sel, poivre.
+                    <strong>Ingrédients :</strong> Poulet de 300g maison, frites maison et petite acompagnements de légumes avec une sauce douce pour le poulet et les frites.</h1>
                 </h3>
+            </div>
+        </section>
+
+        <section class="dessert">
+        <h1 class="titre-boisson">Choix de votre boisson (Sans Alcool)</h1>
+            <br><br>
+            <img src="../images/boisson.png" class="image-plat">
+            <br><br><br>
+            <img src="../images/boisson1.png" class="image-plat">
+            <div class="description-plat">
+                <br><br>
+                <h2>
+                    Vous avez deux choix : Piña colada maison ou Coca-Cola.
+                </h2>
             </div>
         </section>
 
@@ -55,17 +69,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
             <br><br>
             <img src="../images/img_dessert_1.png" class="image-plat">
             <br><br><br>
-            <img src="../images/img_dessert_2.png" class="image-plat">
+            <img src="../images/img_dessert_0.png" class="image-plat">
             <div class="description-plat">
                 <br><br>
-                <h3>
-                    Découvrez notre délicieux plat de spaghetti, préparé avec des ingrédients frais et de qualité. 
-                    Ce plat est parfait pour un dîner en famille ou entre amis.
-                </h3>
-                <br><br>
-                <h3>
-                    <strong>Ingrédients:</strong> Spaghetti, tomates, ail, basilic, huile d'olive, sel, poivre.
-                </h3>
+                <h2>
+                    Vous avez deux choix : Tiramisu maison ou Fraisier maison.
+                </h2>
             </div>
         </section>
 

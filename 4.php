@@ -36,17 +36,44 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
             <h1 class="titre-plat">Le Chill Chicken</h1>
             <br><br>
             <img src="../images/img4.png" class="image-plat">
-            <div class="classement classement50"></div>
+            <div class="classement classement45"></div>
             <div class="description-plat">
                 <br><br>
                 <h3>
-                    Découvrez notre délicieux plat de spaghetti, préparé avec des ingrédients frais et de qualité. 
-                    Ce plat est parfait pour un dîner en famille ou entre amis.
+                    Ce plat vous permet de découvrir nos produits frais acompagné de boule de poulet.
                 </h3>
                 <br><br>
                 <h3>
-                    <strong>Ingrédients:</strong> Spaghetti, tomates, ail, basilic, huile d'olive, sel, poivre.
+                    <strong>Ingrédients :</strong> Poulet mariné en forme de boule acompagné d'une salade, taboulet et riz avec des épices douces afin d'améliorer le goût.</h1>
                 </h3>
+            </div>
+        </section>
+
+        <section class="dessert">
+        <h1 class="titre-boisson">Choix de votre boisson (Sans Alcool)</h1>
+            <br><br>
+            <img src="../images/boisson.png" class="image-plat">
+            <br><br><br>
+            <img src="../images/boisson1.png" class="image-plat">
+            <div class="description-plat">
+                <br><br>
+                <h2>
+                    Vous avez deux choix : Piña colada maison ou Coca-Cola.
+                </h2>
+            </div>
+        </section>
+
+        <section class="dessert">
+        <h1 class="titre-plat">Choix de votre dessert</h1>
+            <br><br>
+            <img src="../images/img_dessert_1.png" class="image-plat">
+            <br><br><br>
+            <img src="../images/img_dessert_0.png" class="image-plat">
+            <div class="description-plat">
+                <br><br>
+                <h2>
+                    Vous avez deux choix : Tiramisu maison ou Fraisier maison.
+                </h2>
             </div>
         </section>
 

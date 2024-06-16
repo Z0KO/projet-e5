@@ -10,11 +10,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Mathieu FERRIERE">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style">
+        <link rel="stylesheet" href="css/style2">
             
     </head>
-    <body>
-                 
+    <body>       
         
     <header>
 
@@ -56,10 +56,39 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
             // Appeler la fonction pour afficher l'heure de la page
             window.onload = afficherHeure;
         </script>
-            <h1><p>L'heure actuelle est : <span id="heure"></span></p></h1>
+            <div class="hour"><h1><p>L'heure actuelle est : <span id="heure"></span></p></h1></div>
+        </section>
+        <br><br><br>
+
+        <section class="texte_boite">
+            <h2>Salutation Chez WeLoveChicken,</h2>
+                <p>
+                    Venez découvrir une expérience culinaire de poulet unique chez WeLoveChicken. <br><br>
+                    Où la passion pour la gastronomie rencontre une ambiance chaleureuse et accueillante. <br><br>
+                    Nous nous engageons à utiliser les ingrédients les plus frais pour vous offrir des plats délicieux et innovants. <br><br>
+                    Venez savourer nos spécialités et laissez-vous emporter par une aventure gustative inoubliable. <br><br>
+                </p>
+        </section>
+
+        <section class="texte_boite_mid">
+            <h2>Plat du jour</h2>
+            <p>Best Sealer</p>
+            <a href="pages/1.php">
+            <img class="taille_mid" src="images/img1.png" alt="Plat du jour"></a>
+            <div class="classement classement50"></div><br>
+            <p>Le prix de ce plat est : 27,95 €</p>
+        </section>
+
+        <section class="texte_boite_end">
+            <h2>Plat du soir</h2>
+            <p>English Chicken</p>
+            <a href="pages/5.php">
+            <img class="taille_mid" src="images/img9.png" alt="Plat du jour"></a>
+            <div class="classement classement40"></div><br>
+            <p>Le prix de ce plat est : 26,95 €</p>
         </section>
         
-        
+        <br><br><br>
         <footer>
         <div class="service_list">
                 <div class="service">

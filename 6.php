@@ -33,20 +33,47 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         </header>
 
         <section class="plat">
-            <h1 class="titre-plat">Le Veg'Chicken</h1>
+            <h1 class="titre-plat">Le Green'Chicken</h1>
             <br><br>
             <img src="../images/img6.png" class="image-plat">
-            <div class="classement classement50"></div>
+            <div class="classement classement35"></div>
             <div class="description-plat">
                 <br><br>
                 <h3>
-                    Découvrez notre délicieux plat de spaghetti, préparé avec des ingrédients frais et de qualité. 
-                    Ce plat est parfait pour un dîner en famille ou entre amis.
+                    Le Green'Chicken est un plat soft avec 4 acompagnements préparés aux frais.
                 </h3>
                 <br><br>
                 <h3>
-                    <strong>Ingrédients:</strong> Spaghetti, tomates, ail, basilic, huile d'olive, sel, poivre.
+                    <strong>Ingrédients :</strong> Dans le Green'Chicken vous retrouverez : Avocat, haricots, poulet façon mer, ainsi que des produits healthy.</h1>
                 </h3>
+            </div>
+        </section>
+
+        <section class="dessert">
+        <h1 class="titre-boisson">Choix de votre boisson (Sans Alcool)</h1>
+            <br><br>
+            <img src="../images/boisson.png" class="image-plat">
+            <br><br><br>
+            <img src="../images/boisson1.png" class="image-plat">
+            <div class="description-plat">
+                <br><br>
+                <h2>
+                    Vous avez deux choix : Piña colada maison ou Coca-Cola.
+                </h2>
+            </div>
+        </section>
+
+        <section class="dessert">
+        <h1 class="titre-plat">Choix de votre dessert</h1>
+            <br><br>
+            <img src="../images/img_dessert_1.png" class="image-plat">
+            <br><br><br>
+            <img src="../images/img_dessert_0.png" class="image-plat">
+            <div class="description-plat">
+                <br><br>
+                <h2>
+                    Vous avez deux choix : Tiramisu maison ou Fraisier maison.
+                </h2>
             </div>
         </section>
 

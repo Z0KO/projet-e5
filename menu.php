@@ -150,7 +150,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                 </div>
                 <hr>      
             </div>   
-            <p class="footer_text">Réalisé par <span>WeLoveChicken &nbsp;<a href="https://www.youtube.com/watch?v=0vNs_HfkkKA" target="_blank">\O/</a>&nbsp;</span> | Tous les droits sont réservés.</p>    
+            <p class="footer_text">Réalisé par <span>WeLoveChicken</span> | Tous les droits sont réservés.</p>    
         </footer>
 
         <script>

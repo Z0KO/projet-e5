@@ -8,32 +8,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nom = $_POST['nom'];
     $prenom = $_POST['prenom'];
     $email = $_POST['email'];
-    $telephone = $_POST['telephone'];
-    $date_reserv = $_POST['date_reserv'];
-    $heure_reservation = $_POST['heure_reservation'];
+    $texte_message = $_POST['texte_message'];
 
     // Vérification si le nom et le prénom contiennent uniquement des lettres
-    if (!preg_match("/^[a-zA-ZÀ-ÿ\s\-']+$/u", $nom . $prenom)) {
-        echo "Le nom ou le prénom ne doit contenir que des lettres. Veuillez ressayez !";
+    if (!preg_match("/^[a-zA-ZÀ-ÿ\s\-']+$/u", $nom) || !preg_match("/^[a-zA-ZÀ-ÿ\s\-']+$/u", $prenom)) {
+        echo "Le nom ou le prénom ne doit contenir que des lettres. Veuillez ressayer !";
         echo "&nbsp &nbsp &nbsp &nbsp";
-        echo "<button onclick=\"window.location.href='../pages/reservation.php'\">Cliquer ici, pour retourner à la page précédente.</button>";
+        echo "<button onclick=\"window.location.href='../pages/apropos.php'\">Cliquer ici, pour retourner à la page précédente.</button>";
     } else {
         try {
             // Requête SQL pour insérer les données dans la base de données avec l'heure d'envoi
-            $req = $cnx->prepare('INSERT INTO users (nom, prenom, email, telephone, date_reserv, heure_reservation) VALUES (:nom, :prenom, :email, :telephone, :date_reserv, :heure_reservation)');
+            $req = $cnx->prepare('INSERT INTO message (nom, prenom, email, texte_message, created_at) VALUES (:nom, :prenom, :email, :texte_message, NOW())');
             $req->bindParam(':nom', $nom);
             $req->bindParam(':prenom', $prenom);
             $req->bindParam(':email', $email);
-            $req->bindParam(':telephone', $telephone);
-            $req->bindParam(':date_reserv', $date_reserv);
-            $req->bindParam(':heure_reservation', $heure_reservation);
+            $req->bindParam(':texte_message', $texte_message);
 
             // Exécution de la requête
             if ($req->execute()) {
-                // Alerte -> réservation.
+                // Alerte -> message.
                 echo "<script type='text/javascript'>
-                        alert('Votre réservation à été prise en compte !');
-                        window.location.href = '../pages/reservation.php';
+                        alert('Votre message a bien été envoyé !');
+                        window.location.href = '../pages/apropos.php';
                       </script>";
                 exit;
             } else {

@@ -11,7 +11,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Mathieu FERRIERE">
         <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/detail.css">
+        <link rel="stylesheet" href="../css/detail">
 
     </head>
     <body>
@@ -36,17 +36,44 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
             <h1 class="titre-plat">English Chicken</h1>
             <br><br>
             <img src="../images/img9.png" class="image-plat">
-            <div class="classement classement50"></div>
+            <div class="classement classement40"></div>
             <div class="description-plat">
                 <br><br>
                 <h3>
-                    Découvrez notre délicieux plat de spaghetti, préparé avec des ingrédients frais et de qualité. 
-                    Ce plat est parfait pour un dîner en famille ou entre amis.
+                    Découvrez plat avec du poulet panné revisité afin d'améliorer le goût culinaire avec des frites en acompagnement.
                 </h3>
                 <br><br>
                 <h3>
-                    <strong>Ingrédients:</strong> Spaghetti, tomates, ail, basilic, huile d'olive, sel, poivre.
+                    <strong>Ingrédients :</strong> Deux poulets de 225g environ fait maison, acompagné de frites maison, préparé avec amour.</h1>
                 </h3>
+            </div>
+        </section>
+
+        <section class="dessert">
+        <h1 class="titre-boisson">Choix de votre boisson (Sans Alcool)</h1>
+            <br><br>
+            <img src="../images/boisson.png" class="image-plat">
+            <br><br><br>
+            <img src="../images/boisson1.png" class="image-plat">
+            <div class="description-plat">
+                <br><br>
+                <h2>
+                    Vous avez deux choix : Piña colada maison ou Coca-Cola.
+                </h2>
+            </div>
+        </section>
+
+        <section class="dessert">
+        <h1 class="titre-plat">Choix de votre dessert</h1>
+            <br><br>
+            <img src="../images/img_dessert_1.png" class="image-plat">
+            <br><br><br>
+            <img src="../images/img_dessert_0.png" class="image-plat">
+            <div class="description-plat">
+                <br><br>
+                <h2>
+                    Vous avez deux choix : Tiramisu maison ou Fraisier maison.
+                </h2>
             </div>
         </section>
 
